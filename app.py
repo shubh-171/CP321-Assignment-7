@@ -7,7 +7,7 @@ import plotly.express as px
 import os
 
 try:
-    df = pd.read_csv("FIFA World Cup winners.csv")
+    df = pd.read_csv("FIFA World Cup Winners.csv")
 except Exception as e:
     raise RuntimeError(f"Failed to load CSV file: {e}")
 
